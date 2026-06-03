@@ -9,7 +9,7 @@ def absvalue(number):
 
 def sort_words(words: List[str]) -> List[str]:
     # sort based on word length
-    words.sort(key=word_length, reverse=True)
+    words.sort(key=word_length, reverse=True) # sorting from greatest word length -> least
     return words
 
 
